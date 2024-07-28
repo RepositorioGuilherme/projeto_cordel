@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+  
+:root{
+    --tipo1: Verdana, Geneva, Tahoma, Sans-serif;
+    --tipo2: 'Passion one', cursive;
+    --tipo3: 'Sriracha', cursive;
+} 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--tipo1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header> h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--tipo2);
+    font-size: 7vw;
+
+
+}
+header> p{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+header> p> a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header> p> a:hover{
+    color: azure;
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--tipo3);
+    font-size: 2.7vw;
+}
+section> p {
+    padding: 2em;
+}
+section.imagem> p{
+    color: white;
+}
+section.default{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
+}
+section.imagem> p{
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.486);
+    text-shadow: 1px 1px 0px black;
+}
+section#img1{
+    background: lightslategray url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+section#img2{
+    background: lightslategray url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    font-size: 1.5vw;
+}
+footer> p{
+    padding: 10px 10px;
+    color: white;
+}
+footer> p> a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer>p >a:hover{
+    color: azure;
+    text-decoration: underline;
+}
